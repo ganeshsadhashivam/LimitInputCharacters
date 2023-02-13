@@ -66,8 +66,13 @@ form input:valid ~ i {
         rgba(65, 42, 99, 1) 0%,
         rgba(116, 133, 255, 1) 100%
       ); */
-  color: aqua;
+  /* color: aqua; */
   /* border-color: aqua; */
+  color: linear-gradient(
+    162deg,
+    rgba(65, 42, 99, 1) 0%,
+    rgba(116, 133, 255, 1) 100%
+  );
 }
 
 form input {
@@ -89,8 +94,11 @@ form input:valid {
     rgba(65, 42, 99, 1) 0%,
     rgba(116, 133, 255, 1) 100%
   ); */
-  color: aqua;
-  border-color: aqua;
+  /* color: aqua;
+  border-color: aqua; */
+  color: rgba(65, 42, 99, 1);
+
+  border-color: rgba(65, 42, 99, 1);
 }
 
 form input::placeholder {
@@ -115,6 +123,9 @@ form input:valid ~ .counter {
       rgba(65, 42, 99, 1) 0%,
       rgba(116, 133, 255, 1) 100%
     ); */
-  color: aqua;
-  border-color: aqua;
+  /* color: aqua;
+  border-color: aqua; */
+  color: rgba(65, 42, 99, 1);
+
+  border-color: rgba(65, 42, 99, 1);
 }
