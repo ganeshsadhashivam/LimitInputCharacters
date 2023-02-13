@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@1&family=Andika&family=Catamaran:wght@400;500&family=Inter:wght@300&family=Kaushan+Script&family=Lato:wght@300;400&family=Montserrat:wght@200;300;400&family=Open+Sans:wght@300&family=PT+Sans&family=Poppins:wght@300;400&family=Raleway:ital,wght@0,300;0,400;0,600;1,300&family=Tangerine:wght@400;700&family=Ubuntu:wght@300&family=Vollkorn&family=Work+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  font-family: "Andika", sans-serif;
+  font-family: "Catamaran", sans-serif;
+  font-family: "Inter", sans-serif;
+  font-family: "Kaushan Script", cursive;
+  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "PT Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Tangerine", cursive;
+  font-family: "Ubuntu", sans-serif;
+  font-family: "Vollkorn", serif;
+  font-family: "Work Sans", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: rgb(65, 42, 99);
+  background: linear-gradient(
+    162deg,
+    rgba(65, 42, 99, 1) 0%,
+    rgba(116, 133, 255, 1) 100%
+  );
+}
+
+.wrapper {
+  background: #fff;
+  padding: 20px;
+  width: 450px;
+  border-radius: 5px;
+}
+
+.wrapper form {
+  height: 50px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+form i {
+  position: absolute;
+  width: 55px;
+  text-align: center;
+  font-size: 23px;
+  color: #c4c4c4;
+  pointer-events: none;
+}
+
+form input:valid ~ i {
+  /* border-color:  background: rgb(65, 42, 99);
+      background: linear-gradient(
+        162deg,
+        rgba(65, 42, 99, 1) 0%,
+        rgba(116, 133, 255, 1) 100%
+      ); */
+  color: aqua;
+  /* border-color: aqua; */
+}
+
+form input {
+  height: 100%;
+  width: 100%;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  padding: 0 50px 0 45px;
+  font-size: 20px;
+  outline: none;
+  transition: all 0.1s ease;
+}
+
+form input:focus,
+form input:valid {
+  /* background: rgb(65, 42, 99);
+  background: linear-gradient(
+    162deg,
+    rgba(65, 42, 99, 1) 0%,
+    rgba(116, 133, 255, 1) 100%
+  ); */
+  color: aqua;
+  border-color: aqua;
+}
+
+form input::placeholder {
+  color: #c4c4c4;
+}
+
+form .counter {
+  position: absolute;
+  right: 3px;
+  width: 55px;
+  text-align: center;
+  font-size: 23px;
+  color: #c4c4c4;
+  pointer-events: none;
+  border-left: 1px solid #d8d8d8;
+}
+
+form input:valid ~ .counter {
+  /* border-color:  background: rgb(65, 42, 99);
+    background: linear-gradient(
+      162deg,
+      rgba(65, 42, 99, 1) 0%,
+      rgba(116, 133, 255, 1) 100%
+    ); */
+  color: aqua;
+  border-color: aqua;
+}
