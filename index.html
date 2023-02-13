@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Limit Input Characters</title>
+    <link rel="icon" type="image/x-icon" href="input.png" />
     <link rel="stylesheet" href="styles.css" />
     <link
       rel="stylesheet"
@@ -14,10 +15,11 @@
   <body>
     <div class="wrapper">
       <form action="#">
-        <input type="text" placeholder="username" required />
+        <input type="text" placeholder="username" maxlength="16" required />
         <i class="uis uis-at"></i>
         <span class="counter">16</span>
       </form>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
