@@ -68,11 +68,7 @@ form input:valid ~ i {
       ); */
   /* color: aqua; */
   /* border-color: aqua; */
-  color: linear-gradient(
-    162deg,
-    rgba(65, 42, 99, 1) 0%,
-    rgba(116, 133, 255, 1) 100%
-  );
+  color: rgba(65, 42, 99, 1);
 }
 
 form input {
